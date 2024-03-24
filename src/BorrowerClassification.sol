@@ -85,14 +85,12 @@ contract BorrowerClassification {
         return borrowers[borrower].defiScore;
     }
 
-    // Optional: Function to manually adjust the classification of a borrower (Admin only)
     function adjustClassification(address borrower, uint256 newClassification) public {
         // This could be restricted to the contract owner or a specific admin role
         require(newClassification >= 1 && newClassification <= 3, "Invalid classification");
         emit BorrowerClassified(borrower, newClassification); // Log the classification change
     }
 
-    // Optional: Function to allow borrowers to request loans based on their classification
     // This function is a conceptual placeholder and would need integration with a lending mechanism
     function requestLoan(address borrower, uint256 amount) public view returns (bool canBorrow, uint256 maxAmount) {
         uint256 classification = getDeFiBorrowerClassification(borrower);
