@@ -30,6 +30,8 @@
 
 ## Architecture
 
+<img width="595" alt="Architecture" src="Architecture.png">
+
 **Borrower Ranks** employs a robust and flexible architecture, ensuring its scoring system is both accurate and easily integrable with existing DeFi lending platforms.
 
 - **Smart Contracts**: Developed in Solidity and deployed on the Ethereum blockchain, forming the core logic for borrower classification and scoring.
