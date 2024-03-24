@@ -1,6 +1,10 @@
 # BorrowerRanker
 
+![Static Badge](https://img.shields.io/badge/Karma3Labs-yellow?style=flat)
+
+
 ## Description
+
 
 ![LOGO](./docs/Logo.png)
 
